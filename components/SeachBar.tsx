@@ -7,7 +7,7 @@ interface Props {
   onPress: () => void;
 }
 
-const SeachBar = ({ placeholder, onPress }: Props) => {
+const SearchBar = ({ placeholder, onPress }: Props) => {
   return (
     <View className="flex-row items-center bg-dark-200  rounded-full px-5 py-4 ">
       <Image
@@ -28,4 +28,4 @@ const SeachBar = ({ placeholder, onPress }: Props) => {
   );
 };
 
-export default SeachBar;
+export default SearchBar;

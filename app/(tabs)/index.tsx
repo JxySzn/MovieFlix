@@ -1,5 +1,5 @@
 import MovieCard from "@/components/MovieCard";
-import SeachBar from "@/components/SeachBar";
+import SearchBar from "@/components/SeachBar";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import { fetchMovies } from "@/services/api";
@@ -43,7 +43,7 @@ export default function Index() {
           <Text>Error: {moviesError?.message}</Text>
         ) : (
           <View className="flex-1 mt-5">
-            <SeachBar
+            <SearchBar
               onPress={() => router.push("/search")}
               placeholder="Search for a movie "
               value=""
