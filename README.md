@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <a href="https://github.com/JxySzn/MovieFlix">
+    <img src="https://img.shields.io/github/stars/JxySzn/MovieFlix.svg?style=social&label=Star" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/JxySzn/MovieFlix/network/members">
+    <img src="https://img.shields.io/github/forks/JxySzn/MovieFlix.svg?style=social&label=Fork" alt="GitHub forks">
+  </a>
+  <img src="https://img.shields.io/github/issues/JxySzn/MovieFlix" alt="GitHub issues">
+  <img src="https://img.shields.io/github/license/JxySzn/MovieFlix" alt="License: MIT">
+  <img src="https://img.shields.io/badge/Expo-v53.0.22-blue" alt="Expo version">
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<h1 align="center">🎬 MovieFlix – React Native Expo Movie App 📱</h1>
 
-## Get started
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#features">Features</a> •
+  <a href="#layout">Layout</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#collaborators">Collaborators</a> •
+  <a href="#contribute">Contribute</a> •
+  <a href="#license">License</a>
+</p>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+##  About <a id="about"></a>
+MovieFlix is a sleek, cross-platform mobile app built with React Native (Expo) that lets users discover and explore movies through a polished, intuitive interface. It shines with smooth navigation, rich design using NativeWind, robust backend powered by Appwrite, and web support via Expo Web.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+##  Features <a id="features"></a>
+- **Cross-platform support** – iOS, Android, and Web (via Expo)
+- **NativeWind** (Tailwind for React Native) for a clean, consistent UI
+- **Trending & new release browsing** for easy movie discovery
+- **Fluid navigation & animations** using React Navigation and Reanimated
+- **Appwrite integration** for authentication, database, and backend logic
+- **Web compatibility** through React Native Web support
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+##  Layout <a id="layout"></a>
+<p align="center">
+  <img src="https://github.com/JxySzn/MovieFlix/blob/main/assets/image1.jpg" alt="Screenshot 1" width="300px" />
+  <img src="https://github.com/JxySzn/MovieFlix/blob/main/assets/image2.jpg" alt="Screenshot 2" width="300px" />
+  <img src="https://github.com/JxySzn/MovieFlix/blob/main/assets/image3.jpg" alt="Screenshot 3" width="300px" />
+</p>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+*A short demonstration video is also included directly in the repo for real-time UI experience.*
 
-## Get a fresh project
+---
 
-When you're ready, run:
+##  Technologies <a id="technologies"></a>
+| Category        | Stack                                |
+|----------------|--------------------------------------|
+| Framework      | React Native (Expo)                  |
+| Navigation     | Expo Router, React Navigation        |
+| UI Styling     | NativeWind (Tailwind), Expo Blur     |
+| Backend        | Appwrite, react-native-appwrite      |
+| Utilities      | Expo Constants, Fonts, Haptics, Image, Linking, Splash Screen, Status Bar |
+| Build Tools    | Expo CLI, ESLint, Prettier, TypeScript|
 
+---
+
+##  Installation <a id="installation"></a>
+### Prerequisites
+- Node.js (v18+ recommended)
+- Expo CLI (`npm install -g expo-cli`)
+- Git
+
+### Clone the repository
 ```bash
-npm run reset-project
-```
+git clone https://github.com/JxySzn/MovieFlix.git
+cd MovieFlix
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
